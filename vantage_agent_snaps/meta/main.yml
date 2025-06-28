@@ -1,4 +1,3 @@
-# moved from vantage_agents/meta/main.yml
 galaxy_info:
   author: James Beedy <james@vantagecompute.ai>
   description: Ansible role that installs the vantage-agent and jobbergate-agent snaps.

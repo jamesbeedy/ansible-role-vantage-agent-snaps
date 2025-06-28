@@ -1,7 +1,5 @@
-# moved from vantage_agents/tasks/main.yml
 ---
 # tasks file for vantage_agent_snaps
-# Add main tasks here for Galaxy import compliance
 - name: Ensure snapd is installed
   apt:
     name: snapd

@@ -1,4 +1,3 @@
-# moved from vantage_agents/README.md
 vantage_agent_snaps
 ===================
 
@@ -19,7 +18,6 @@ This role installs and configures the `vantage-agent` and `jobbergate-agent` usi
 
 Requirements
 ------------
-- Ubuntu 18.04+ or EL7/EL8
 - Ansible 2.9+
 - Snapd must be available on the target hosts
 
@@ -39,14 +37,10 @@ vars:
   cluster_name: "your-cluster-name"
 ```
 
-Dependencies
-------------
-None
-
 Example Playbook
 ----------------
-```yaml
-- hosts: all
+```yaml 
+  hosts: "{{ hosts }}"
   become: true
   vars:
     oidc_client_id: "your-client-id"
