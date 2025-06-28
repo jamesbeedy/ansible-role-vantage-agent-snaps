@@ -1,0 +1,25 @@
+---
+# defaults file for vantage_agent_snaps
+# Add default variables here for Galaxy import compliance
+
+oidc_client_id: ""
+oidc_client_secret: ""
+cluster_name: ""
+
+# These are default variables for the vantage_agent_snaps role
+# oidc_client_id: The OIDC client ID for the vantage agent
+# oidc_client_secret: The OIDC client secret for the vantage agent
+# cluster_name: The name of the cluster for the vantage agent
+# Note: Ensure these variables are set in your playbook or inventory files.
+# They are required for the proper configuration of the vantage agent and jobbergate agent snaps.
+# You can set them as follows:
+# - In your playbook:
+#   ```yaml
+#   - hosts: all
+#     vars:
+#       oidc_client_id: "your_oidc_client_id"
+#       oidc_client_secret: "your_oidc_client_secret"
+#       cluster_name: "your_cluster_name"
+#     roles:
+#       - vantage_agent_snaps
+#   ```
